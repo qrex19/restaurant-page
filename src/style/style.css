@@ -8,6 +8,10 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
 }
 
 header {
