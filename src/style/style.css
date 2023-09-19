@@ -2,6 +2,7 @@ Reset some default browser styles
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 /* Basic styling */
@@ -76,4 +77,8 @@ header {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+}
+
+.about-us, .menu-button, .contact-button {
+    cursor: pointer;
 }
